@@ -1,0 +1,1583 @@
+{
+    "id": "architectures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "type": "Feature",
+            "id": "level_0",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [ 
+                    [[0, 0],[0,41],[25,41],[25,25],[31,25],[31,0]]
+                ]  
+            },
+            "properties": 
+            {
+                "class": "level",
+                "parent": "building",
+                "description": "fondamenta",
+                "height": 3.5,
+                "thickness": 0.3,
+                "tVector": [0, 0, 0],
+                "rVector": [0, 0, 0]
+            }
+        },{
+              "type": "Feature",
+              "id": "wall_0.1-W",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [41,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro esterno asse y",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 90],
+		    "connections": ["room_0.2"]	
+                    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-S",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [31,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro esterno sud asse x",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0]
+                    
+              }
+        },
+	{
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.1-S",
+                    "thickness": 5,
+                    "description": "uscita servizio",
+                    "tVector": [1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-E",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [25,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro esterbo est asse y",
+                    "tVector": [31, 0, 0],
+                    "rVector": [0, 0, 90]
+                    
+              }
+        },
+	{
+              "type": "Feature",
+              "id": "Public",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.1-E",
+                    "thickness": 5,
+                    "description": "waiting door",
+                    "tVector": [6.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-N",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [25,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro nord asse x",
+                    "tVector": [0, 41, 0],
+                    "rVector": [0, 0, 0]
+                    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-NE",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro esterno nord-est asse y",
+                    "tVector": [25, 25, 0],
+                    "rVector": [0, 0, 90]
+                    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-NE2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro esterno nord-est asse x",
+                    "tVector": [25, 25, 0],
+                    "rVector": [0, 0, 0]
+                    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.1_staff_entrance",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.1-NE2",
+                    "thickness": 5,
+                    "description": "ingresso riservato allo staff",
+                    "tVector": [3, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [25, 0], [25, 4.4], [0, 4.4] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "refrigeration_room_0.1",
+                    "tVector": [0, 36.6, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.1-refrig",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [25,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro interno camera refrigerata",
+                    "tVector": [0, 36.6, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "refrig_door_0.1-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.1-NE",
+                    "thickness": 5,
+                    "description": "porta camera refrigerata",
+                    "tVector": [13, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [8.3, 0], [8.3, 8.4], [0, 8.4] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "mortuary_storage_room_0.2",
+                    "tVector": [0, 28.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.2-mortStorage",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.3,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [0, 28.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.2-mortStorage",
+                    "thickness": 5,
+                    "description": "Porta Room0.2",
+                    "tVector": [3.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [8.3, 0], [8.3, 8.4], [0, 8.4] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "mortuary_storage_room_0.3",
+                    "tVector": [8.3, 28.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.3-mortStorage",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.3,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8.3, 28.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "storage1_door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.3-mortStorage",
+                    "thickness": 5,
+                    "description": "Porta Room0.2",
+                    "tVector": [3.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [8.4, 0], [8.4, 8.4], [0, 8.4] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "mortuary_storage_room_0.4",
+                    "tVector": [16.6, 28.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.4-mortStorage",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "muro interno storage 4 ",
+                    "tVector": [16.6, 28.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.4-mortStorage",
+                    "thickness": 5,
+                    "description": "Porta mortuary storage 3",
+                    "tVector": [3.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.5-mortStorage",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [16.6, 28.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.6-mortStorage",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8.3, 28.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [31, 0], [31, 6.8], [25, 6.8],[25,10],[0,10] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "mortuary_lobby_room_0.5",
+                    "tVector": [0, 18.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.7-mort_lobby",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [31,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [0, 18.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.7-mort_lobby",
+                    "thickness": 5,
+                    "description": "Porta mortuary storage 3",
+                    "tVector": [1.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.7-mort_lobby",
+                    "thickness": 5,
+                    "description": "Porta mortuary storage 3",
+                    "tVector": [13, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.6",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4, 0], [4, 18.2], [0,18.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "service_passage_room_0.6",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.7",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,4],[4,4],[4,2],[9,2],[9,6],[0,6]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "bath_room_0.7",
+                    "tVector": [4, 12.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.8-bath",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 16.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.9-bath",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 16.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.10-bath",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8, 14.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.11-bath",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8, 14.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.12-bath",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [13, 14.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.12-bath",
+                    "thickness": 5,
+                    "description": "bath-room door",
+                    "tVector": [3, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.8",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[4,0],[4,2],[0,2]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "cabinet_room_0.7",
+                    "tVector": [4, 14.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.9",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[4,0],[4,4],[0,4]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "dirty_linen_room_0.9",
+                    "tVector": [4, 10.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.13-linen",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 14.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.14-linen",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 10.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.14-linen",
+                    "thickness": 5,
+                    "description": "Porta mortuary storage 3",
+                    "tVector": [1.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.14-linen",
+                    "thickness": 5,
+                    "description": "Porta mortuary storage 3",
+                    "tVector": [4.6, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.15-linen_kitchen",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 10.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.16-kitchen",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [13, 10.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.16-kitchen",
+                    "thickness": 5,
+                    "description": "kitchen room door",
+                    "tVector": [1.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.10",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[5,0],[5,4],[0,4]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "kitchen_room_0.10",
+                    "tVector": [8, 10.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.17-kitchen_linen",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8, 10.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.11",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[9,0],[9,5],[0,5]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "viewing_room_0.11",
+                    "tVector": [4, 5.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.18-viewing",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 5.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.18-viewing",
+                    "thickness": 5,
+                    "description": "viewing room door",
+                    "tVector": [10, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },	
+        {
+              "type": "Feature",
+              "id": "wall_0.20-viewing",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [8, 5.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+	{
+              "type": "Feature",
+              "id": "window_1_viewing_room",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "window",
+                    "parent": "wall_0.20-viewing",
+                    "height": 2,
+                    "description": "finestra",
+                    "tVector": [1, 0, 1],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.21-viewing",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [13, 5.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.21-viewing",
+                    "thickness": 5,
+                    "description": "viewing room door",
+                    "tVector": [2.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.12",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[12,0],[12,5.2],[0,5.2]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "boxing_room_0.12",
+                    "tVector": [4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.22-boxing",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [4, 0, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.22-boxing",
+                    "thickness": 5,
+                    "description": "boxing room door",
+                    "tVector": [2.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.23-boxing",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [16, 0, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.13",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[9,0],[9,5],[0,5]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "office_room_0.13",
+                    "tVector": [22, 13.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.24-office",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [22, 13.2, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.24-office",
+                    "thickness": 5,
+                    "description": "viewing room door",
+                    "tVector": [4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.25-office",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [22, 13.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.14",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[9,0],[9,13.2],[0,13.2]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "waiting_room_0.14",
+                    "tVector": [22, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.26-waiting",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [13.2,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [22, 0, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "door_0.2-H",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "wall_0.26-waiting",
+                    "thickness": 5,
+                    "description": "waiting passage room door",
+                    "tVector": [7.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+	{
+              "type": "Feature",
+              "id": "window_1_waiting_room",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "window",
+                    "parent": "wall_0.26-waiting",
+                    "height": 1.5,
+                    "description": "finestra sportello",
+                    "tVector": [1, 0, 1],
+                    "rVector": [0, 0, 0]
+              }
+        },
+	{
+              "type": "Feature",
+              "id": "window_2_waiting_room",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "window",
+                    "parent": "wall_0.26-waiting",
+                    "height": 1.5,
+                    "description": "finestra sportello",
+                    "tVector": [3, 0, 1],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.15",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[9,0],[9,10],[0,10]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "office_room_0.15",
+                    "tVector": [13, 8.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.19-office2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [17, 8.4, 0],
+                    "rVector": [0, 0, 0]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "wall_0.20-office2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3,0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "Mura interne",
+                    "tVector": [17, 15.2, 0],
+                    "rVector": [0, 0, 90]    
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.16",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[9,0],[9,3.2],[0,3.2]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "passage_room_0.16",
+                    "tVector": [13, 5.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "room_0.17",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0,0],[6,0],[9,5.2],[0,5.2]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "interview_room_0.16",
+                    "tVector": [16, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        }
+        
+        
+        
+    ]
+}

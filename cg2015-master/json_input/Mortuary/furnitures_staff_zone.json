@@ -1,0 +1,408 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+			    "id": "Cucina_1_room_0.10",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				    [[0, 0], [1, 0], [1, 1.5], [0, 1.5]]
+				]
+
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.10",
+				"class": "Cucina",
+				"height": 0.8,
+				"tVector": [2.5, 0.15, -0.05],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "Frigo_1_room_0.10",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				    [[0, 0], [1, 0], [1, 1], [0, 1]]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.10",
+				"class": "Frigo",
+				"height":2,
+				"tVector": [4, 0.15, 0],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "Water_1_room_0.7",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.7",
+				"class": "water",
+				"tVector": [1, 5, -0.49],
+				"rVector": [0, 0, 0]
+			    }
+        		},
+			{
+			    "id": "Lavandino_1_room_0.7",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.7",
+				"class": "Lavandino",
+				"tVector": [4.35, 3, 0.8],
+				"rVector": [0, 0, 0]
+			    }
+        		},
+			{
+			    "id": "Asciugamani_1_room_0.7",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.7",
+				"class": "Asciugamani",
+				"tVector": [4.35, 3.6, 1.2],
+				"rVector": [0, 0, 0]
+			    }
+        		},
+			{
+			    "id": "BoxDoccia_1_room_0.7",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+					[[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]
+				]
+
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.7",
+				"class": "BoxDoccia",
+				"tVector": [8, 2.15, 0],
+				"rVector": [0, 0, 90]
+			    }
+        		},
+			{
+			    "id": "TavoloMensa_1_room_0.15",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.15",
+				"class": "tavoloMensa",
+				"height": 0.8,
+				"tVector": [5, 6, 0],
+				"rVector": [90, 0, 0]
+			    }
+			},
+			{
+			    "id": "TavoloMensa_2_room_0.15",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.15",
+				"class": "tavoloMensa",
+				"height": 0.8,
+				"tVector": [7, 6, 0],
+				"rVector": [90, 0, 0]
+			    }
+			},
+			{
+			    "id": "TavoloMensa_3_room_0.15",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.15",
+				"class": "tavoloMensa",
+				"height": 0.8,
+				"tVector": [5, 3, 0],
+				"rVector": [90, 0, 0]
+			    }
+			},
+			{
+			    "id": "TavoloMensa_1_room_0.15",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.15",
+				"class": "tavoloMensa",
+				"height": 0.8,
+				"tVector": [7, 3, 0],
+				"rVector": [90, 0, 0]
+			    }
+			},
+			{
+			    "id": "Scaffale_1_room_0.9",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.9",
+				"class": "scaffale",
+				"height": 2.2,
+				"tVector": [0.3, 0.2, 0.3],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Scaffale_2_room_0.9",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.9",
+				"class": "scaffale",
+				"height": 2.2,
+				"tVector": [0.3, 2.85, 0.3],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Poltrona_1_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "Poltrona",
+				"tVector": [8.3, 1.5, 0.06],
+				"rVector": [0, 0,0]
+			    }
+			},
+			{
+			    "id": "Poltrona_2_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "Poltrona",
+				"tVector": [8.3, 0.6, 0.06],
+				"rVector": [0, 0,0]
+			    }
+			},
+			{
+			    "id": "Poltrona_3_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "Poltrona",
+				"tVector": [8.3, 4, 0.06],
+				"rVector": [0, 0,0]
+			    }
+			},
+			{
+			    "id": "Poltrona_3_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "Poltrona",
+				"tVector": [8.3, 4, 0.06],
+				"rVector": [0, 0,0]
+			    }
+			},
+			{
+			    "id": "Separe_1_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "Separe",
+				"tVector": [0, 2.4, 1.2],
+				"rVector": [90, 90,0]
+			    }
+			},
+			{
+			    "id": "MortuaryTrolley_1_room_0.11",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+					[ [0, 0], [2, 0], [2, 0.8], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.11",
+				"class": "MortuaryTrolley",
+				"tVector": [3, 1.7, 0.02],
+				"rVector": [0, 0,90]
+			    }
+			},
+			{
+			    "id": "TavoloMarmo_1_room_0.12",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+					[ [0, 0], [2, 0], [2, 0.8], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.12",
+				"class": "TavoloMarmo",
+				"tVector": [3, 1.7, 0.02],
+				"rVector": [0, 0,90]
+			    }
+			},
+			{
+			    "id": "TavoloMarmo_2_room_0.12",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+					[ [0, 0], [2, 0], [2, 0.8], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.12",
+				"class": "TavoloMarmo",
+				"tVector": [9, 1.7, 0.02],
+				"rVector": [0, 0,90]
+			    }
+			},
+			{
+			    "id": "Bara_1_room_0.12",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.12",
+				"class": "Bara",
+				"tVector": [5, 2.77, 1],
+				"rVector": [-30, 0,-90]
+			    }
+			},
+			{
+			    "id": "Bara_2_room_0.12",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.12",
+				"class": "Bara",
+				"tVector": [6.5, 2.77, 1],
+				"rVector": [-30, 0,-90]
+			    }
+			}
+    ]
+}

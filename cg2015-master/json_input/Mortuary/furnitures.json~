@@ -1,0 +1,207 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": [	
+			
+			{
+			    "id": "TavoloUtoptico_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [5.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_2_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [7.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_3_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [9.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_4_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [13.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_5_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [15.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_6_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [17.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "BancoLavandino_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "BancoLavandino",
+				"height": 3,
+				"tVector": [0.2, 3, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "BancoLavandino_2_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "BancoLavandino",
+				"height": 3,
+				"tVector": [0.2, 6.5, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "WallSluice_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,0.6 ], [0, 0.6] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "WallSluice",
+				"height": 3,
+				"tVector": [0.2, 5.25, 0.4],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Frigorifero_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			   {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.8, 0], [0.8, 0.9], [0, 0.9] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Frigorifero",
+				"height": 3,
+				"tVector": [0.3, 0.4, 0],
+				"rVector": [0, 0, -90]
+			    }
+			}					
+        	]
+}

@@ -1,0 +1,414 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": [	
+			
+			{
+			    "id": "TavoloUtoptico_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [5.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [7, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_2_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [7.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_2_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [9, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_3_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [9.5, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_3_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [11, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_4_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [13.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_4_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [15.3, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_5_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [15.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_5_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [17.3, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "TavoloUtoptico_6_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [3.5, 0], [3.5,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "TavoloAutoptico",
+				"height": 3,
+				"tVector": [17.8, 9, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "surgery_lamp_6_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": 
+				[
+				   [ 0,0]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Lampada",
+				"height": 3,
+				"tVector": [19.3, 9.7, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "BancoLavandino_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "BancoLavandino",
+				"height": 3,
+				"tVector": [0.2, 3, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "BancoLavandino_2_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "BancoLavandino",
+				"height": 3,
+				"tVector": [0.2, 6.5, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "WallSluice_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,0.6 ], [0, 0.6] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "WallSluice",
+				"height": 3,
+				"tVector": [0.2, 5.25, 0.4],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Frigorifero_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			   {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Frigorifero",
+				"height": 3,
+				"tVector": [4, 0.3, 0],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "ArmadiettoAlto_1__room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "ArmadiettiAlti",
+				"tVector": [0.6,7.75, 1.6],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "ArmadiettoAlto_2__room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "ArmadiettiAlti",
+				"tVector": [0.6,4.25, 1.6],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Banco_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Banco",
+				"tVector": [6.85, 0.5, -0.1],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "Bilancia_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Point",
+				"coordinates": [0, 0]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "Bilancia",
+				"tVector": [6.85, 0.5, 0.75],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "FormalinDispensingStation_1_room_0.5",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.6, 0], [0.6,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.5",
+				"class": "FormalinDispensingStation",
+				"height": 3,
+				"tVector": [18, 0.2, 0],
+				"rVector": [0, 0, 90]
+			    }
+			}					
+        	]
+}

@@ -1,0 +1,368 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": [	
+			{
+			    "id": "CoffinStorage_1_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [2.6, 0], [2.6,3.6 ], [0, 3.6] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "CoffinStorage",
+				"height": 3,
+				"tVector": [0, 0.7, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},{
+			    "id": "BarellaElettrica_1_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [2.4, 0], [2.4,1 ], [0, 1] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "BarellaElettrica",
+				"height": 3,
+				"tVector": [8, 2, 0],
+				"rVector": [0, 0, 0]
+			    }
+			},
+			{
+			    "id": "Evaporatore_1_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.5, 0], [0.5,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "evaporatore",
+				"height": 3,
+				"tVector": [7.5, 4.3, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "Evaporatore_2_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.5, 0], [0.5,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "evaporatore",
+				"height": 3,
+				"tVector": [11, 4.3, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "Evaporatore_3_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.5, 0], [0.5,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "evaporatore",
+				"height": 3,
+				"tVector": [14.5, 4.3, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "Evaporatore_4_room_0.1",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [0.5, 0], [0.5,1.5 ], [0, 1.5] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.1",
+				"class": "evaporatore",
+				"height": 3,
+				"tVector": [18, 4.3, 2.5],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "BarellaElettrica_2_room_0.2",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [2.4, 0], [2.4,0.8 ], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.2",
+				"class": "BarellaElettrica",
+				"height": 3,
+				"tVector": [7.5, 2, 0],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_1_room_0.2",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+                   		  [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+                		]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.2",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [0.53, 8.225, 0],
+				"rVector": [0, 0, -90],
+				"nodeTVector": [1, 0, 0]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_2_room_0.2",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.2",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [3.02, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+ 			{
+			    "id": "CellaFrigo_3_room_0.2",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.2",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [5.51, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "BarellaElettrica_3_room_0.3",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [2.4, 0], [2.4,0.8 ], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.3",
+				"class": "BarellaElettrica",
+				"height": 3,
+				"tVector": [7.5, 2, 0],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_1_room_0.3",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.3",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [0.53, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_2_room_0.3",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.3",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [3.02, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+ 			{
+			    "id": "CellaFrigo_3_room_0.3",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.3",
+				"class": "CellaFrigo",
+				"height": 0.8,
+				"tVector": [5.51, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "BarellaElettrica_4_room_0.4",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [2.4, 0], [2.4,0.8 ], [0, 0.8] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.4",
+				"class": "BarellaElettrica",
+				"height": 3,
+				"tVector": [7.5, 2, 0],
+				"rVector": [0, 0, 90]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_1_room_0.4",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.4",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [0.53, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+			{
+			    "id": "CellaFrigo_2_room_0.4",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.4",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [3.02,8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			},
+ 			{
+			    "id": "CellaFrigo_3_room_0.4",
+			    "type": "Feature",
+			    "geometry": 
+			    {
+				"type": "Polygon",
+				"coordinates": 
+				[
+				   [ [0, 0], [1.91, 0], [1.91, 2.26], [0, 2.26] ]
+				]
+			    },
+			    "properties": 
+			    {
+				"parent": "room_0.4",
+				"class": "CellaFrigo",
+				"height": 3,
+				"tVector": [5.51, 8.225, 0],
+				"rVector": [0, 0, -90]
+			    }
+			}						
+			
+					
+        	]
+}

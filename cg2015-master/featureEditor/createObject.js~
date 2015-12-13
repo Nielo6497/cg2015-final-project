@@ -1,0 +1,14 @@
+function get3DModel() {
+    var geometry = new THREE.BoxGeometry( 2, 1, 0.6 );
+    var material = new THREE.MeshLambertMaterial( {color: 0xff0000} );
+    var bed = new THREE.Mesh( geometry, material );
+    
+    bed.feature = this;
+    bed.name = this.id;
+    return bed;
+
+	/* To set on get3DModel for the new Features
+	var model = Feature.packageModel(object);
+	return model;
+	*/
+}
